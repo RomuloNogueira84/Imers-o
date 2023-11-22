@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+button,
+select,
+input,
+textarea{
+  font-family: 'Comic Neue', cursive;
+}
+body{
+  background:linear-gradient(#f4fdf5,rgb(244, 253, 255),rgb(245, 243, 255),rgb(246, 245, 254));
+}
+header{
+  background-color: #fff;
+  height: 80px;
+}
+header #navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edebeb;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+header #navbar .nav-brand{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(0, 0, 102);
+}
+
+header #navbar .nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header #navbar .nav-list .nav-item a{
+  text-decoration: none;
+  color: rgb(1, 1, 91);
+  font-size: 18px;
+  font-weight: 500;
+
+}
+header #navbar .nav-list .nav-item a :hover{
+  color: rgb(122, 122, 245);
+  transition: color 0,3s;
+}
+
+main{
+  margin-top: 5rem;
+}
+main #banner{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+}
+main #banner .banner-content .banner-content-title {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+main #banner .banner-content .banner-content-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 500px;
+    margin-bottom: 38px;
+}
+main #banner .banner-content .banner-content-btn{
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 8px 24px;
+  border: none;
+}
+main #banner .banner-image{
+  height: 500px;
+  width: 700px;
+  border-radius: 50%;
+}
